@@ -1,0 +1,216 @@
+/* common font link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  /* background: #E5E5E5; */
+}
+
+/* body {
+  max-width: 1350px;
+  
+} */
+/* ----Navber section style */
+.navber {
+  height: 50px;
+  background: white;
+}
+
+@media only screen and (max-width:576px) {
+  .navbar-brand-name{
+    width: 1em;
+  }
+ 
+}
+
+/*------ slider section style ------ */
+.top-banner {
+  margin-top: 1em;
+}
+
+.carousel-caption h1 {
+  font-size: 2em;
+  text-shadow: 5px 5px 10px #1b1b1b;
+}
+
+
+.carousel-item img {
+  object-fit: cover;
+  min-height: 60vh;
+}
+
+/* -----moment section style----- */
+.moment .card {
+  margin-bottom: 2em;
+  margin-top: 4em;
+}
+
+.toast {
+  width: 300px;
+}
+
+.toast-border {
+  border: none;
+  border-left: 8px solid #3F87F5;
+
+}
+
+span {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #505050;
+}
+
+/* -----package section style----- */
+.package > h1 {
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.package-card {
+  padding: 40px 30px 30px 30px;
+  border: 1px solid #E5E5E5;
+}
+
+.package-card a {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.list-group-item i {
+  background: #3F87F5;
+  color: #ffffff;
+}
+
+.package-card:hover {
+  background: url(icons/watermark.svg), #3F87F5;
+  background-repeat: no-repeat;
+  background-position: right;
+  cursor: pointer;
+  color: #ffffff;
+  margin-top: -40px;
+  border: none;
+  box-shadow: 3px 15px 20px #81b2fc;
+  transition: .3s;
+}
+
+.package-card:hover .list-group-item{
+  background: transparent;
+  color: #ffffff;
+}
+
+.package-card:hover .list-group-item i{
+  background: #ffffff;
+  color: #3F87F5;
+}
+
+.package-card:hover .col-lg-3{
+  margin-bottom: 20px;
+}
+
+
+
+/* -----client section style----- */
+.client {
+  padding: 1em 0 2em 0;
+  margin-bottom: 2em;
+}
+
+.client h1 {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.clients-card {
+  box-shadow: 1px 8px 20px rgb(160, 160, 160);
+}
+
+.clients .row {
+  gap: 10px !important;
+}
+
+/* -----question section style------ */
+
+.question {
+  margin-bottom: 5em;
+}
+
+.question h1 {
+  margin-bottom: 2em;
+}
+
+/* footer section style----- */
+footer {
+  height: 280px;
+  color: #ffffff;
+}
+
+/* .top-banner-heading {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+}
+
+.top-banner-title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+}
+
+.top-banner-btn {
+  width: 168px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #3F87F5;
+}
+@media only screen and (max-width:576px) {
+  .navbar-brand-name{
+    width: 10px;
+    margin-left: 2px;
+  }
+ 
+}
+
+@media only screen and (max-width:768px) {
+  .carousel-item {
+    height: 80vh;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+}
+
+@media only screen and (max-width:992px) {
+  .moment {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .moment-title {
+    width: 351px;
+    margin-top: 2rem;
+    margin-left: 0 !important;
+
+  }
+ 
+}
+
+.toast-border {
+  border: none;
+  border-left: 8px solid #3F87F5;
+}
+
+/* -----package section style----- */
